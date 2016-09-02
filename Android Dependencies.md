@@ -44,17 +44,20 @@
 ### com.android.support:support-annotations
 ### com.android.support:cardview-v7
 ### com.android.support:customtabs
+### com.android.support:percent
 
 Google 将 Android 的更新分为了4种,系统更新,系统应用更新,Google Play Services 更新和 support library 更新.
 系统更新很慢,Android Marshmallow 已经出来一年了,然而市占率仅有 15%.这显然达不到预期.
 剩余的部分更新都很快速,系统应用更新和 Google Play Services 都通过 Play 进行更新,对于终端用户来说仅仅只是更新了一个应用而已.
 Support Library 则是由开发者来更新,使得应用能在第一时间使用部分 Android 的新特性.
+同时也推动着开发者去适配新的系统平台,因为只有适配了最新的系统,才能使用最新的 Support Library.
 
 appcompat 是一个兼容库,提供了 actionbar,appcompat Activity 和部分 MD 用户界面.</br>
 design,cardview-v7 提供了另一些 MD 的用户界面.</br>
 recyclerview 替代了 listview,成为了显示列表的首选.</br>
 support-annotations 提供了 annotation 例如 intdef,nonnull,nullable等等用于提升代码质量的声明.</br>
-customtabs 让应用能够使用 chrome 内核的特性,不用在忍受旧系统的辣鸡 webview 了.
+customtabs 让应用能够使用 chrome 内核的特性,不用在忍受旧系统的辣鸡 webview 了.</br>
+percent 是百分比视图库, 百分比视图在 iOS 设备上还是用的比较多的,如果使用 iOS 转制的设计图,那么这个库我想是避不开了.
 
 
 
